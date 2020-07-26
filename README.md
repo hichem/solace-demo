@@ -115,7 +115,7 @@ https://solace.com/samples/solace-samples-amqp-qpid-jms2/persistence-with-queues
 According to documentation, transactional mode is possible with solace when properly configuring the JMS Session
 Doc: https://docs.solace.com/Solace-JMS-API/Using-Transacted-Sessions.htm
 
-![Transactions](img/transactions_basic.png)
+![Transactions](img/transactions_basic.jpg)
 
 **Pushing Messages to Multiple Subscribers:**
 * Requires using topics
