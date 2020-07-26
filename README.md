@@ -115,13 +115,13 @@ https://solace.com/samples/solace-samples-amqp-qpid-jms2/persistence-with-queues
 According to documentation, transactional mode is possible with solace when properly configuring the JMS Session
 Doc: https://docs.solace.com/Solace-JMS-API/Using-Transacted-Sessions.htm
 
-![Transactions](transactions_basic.png)
+![Transactions](img/transactions_basic.png)
 
 **Pushing Messages to Multiple Subscribers:**
 * Requires using topics
 * By default, a topic will make the message available only for online consumers (if a consumer isn’t online / available) it may not have enough time to consume the message from thee topic
 
-![Best Effort Delivery](f6fe3980-2522-49cf-b433-68546ce9e7d3.png)
+![Best Effort Delivery](img/f6fe3980-2522-49cf-b433-68546ce9e7d3.png)
 
 There are 2 techniques to send the same message to multiple destinations (consumers) reliably:
 
@@ -131,7 +131,7 @@ https://solace.com/samples/solace-samples-amqp-qpid-jms2/feature_DurableTopicSub
 Implement Topic to Queue Mapping:
 https://solace.com/samples/solace-samples-amqp-qpid-jms2/topic-to-queue-mapping/
 
-![Best Effort vs Guaranteed Delivery](e85aa12c-d911-4bc7-b9d7-a2b0a40f1aca.png)
+![Best Effort vs Guaranteed Delivery](img/e85aa12c-d911-4bc7-b9d7-a2b0a40f1aca.png)
 
 >> Topic to Queue is the easiest approach
 
